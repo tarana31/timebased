@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="workshop.css" rel="stylesheet" type="text/css">
+  <title> Workshop Page </title>
+</head>
+<body>
+    <div id="main">
+        <div id= "header">
+            <img src = "nycdaimg.jpg">
+            <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="port.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+        </div>
+    <div id= "details">
+            <p>
+                Praesent luctus egestas nisl, vitae vehicula eros rhoncus vel. 
+                Phasellus consequat arcu eu neque convallis eu vulputate diam vehicula. In eget venenatis nisl. 
+                Vestibulum id nulla eu sapien pellentesque malesuada pharetra ac lacus. 
+                Curabitur et ultricies quam. Aenean pretium aliquet velit, gravida vulputate urna tempus vel.  
+            </p>
+            <p>
+                Proin tempor erat sit amet nisl porta nec vulputate arcu imperdiet. Praesent luctus egestas nisl, vitae vehicula eros rhoncus vel. 
+                Phasellus consequat arcu eu neque convallis eu vulputate diam vehicula. In eget venenatis nisl. 
+                Vestibulum id nulla eu sapien pellentesque malesuada pharetra ac lacus. Curabitur et ultricies quam. Aenean pretium aliquet velit, 
+                gravida vulputate urna tempus vel. Proin tempor erat sit amet nisl porta nec vulputate arcu imperdiet. 
+            </p>
+            <p>
+                Ut vel turpis a orci pulvinar tincidunt. Mauris id purus turpis. Aliquam metus arcu, 
+                facilisis quis pellentesque vitae, dapibus non nulla. Nulla suscipit sagittis sodales. 
+                Etiam laoreet ante in purus laoreet id malesuada dui pretium.
+            </p>
+            
+    </div>   
+    </div>
+    <div id="modal">
+        <h3>Please Sign In or Sign Up</h3>
+        <div>
+                <button="close" title="Close" id="close" onclick= "mouse()">X</a>
+    </div>
+        <div id="detail">
+                <label for= "firstname"> First Name </label>
+                <input type= "text" name= "Firstname" onclick="test()" id= "fname">  
+                <br>
+                <br>
+                <label for= "lastname"> Last Name </label>
+                <input type= "text" name= "Lastname"onclick= "test()" id= "lname"><br>
+                <br>
+                <br>
+                <label for= "email"> Email </label>
+                <input type= "text" name= "email" id= "email">
+                <br>
+                <br>
+                <label for= "address"> Address </label>
+                <input type= "text" name= "address" id= "address"> <br>
+                <br>
+                <br>
+                <label for= "password"> Password </label>
+                <input type= "text" name= "password" id= "password">
+                <br>
+                <br>
+                <label for= "con_password"> Confirm Password </label>
+                <input type= "text" name= "con_password" id= "con_password">
+                <br><br>
+                <input type= "submit" value= "  Sign Up  " onclick = "pass()" id= "submit" style="background-color: darkgrey">
+        </div>
+        <div id="footer">
+            <p><h5>Already a member?</h5><input type= "submit" value= "  Sign In  " onclick = "pass()" id= "submit" style="background-color: darkgrey"></p>
+        </div>
+    </div>  
+    <script src="workshop.js"> </script>
+</body>
+</html>
